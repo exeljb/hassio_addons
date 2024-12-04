@@ -588,7 +588,7 @@ mappings = {
             "entity_category": "diagnostic",
             "value_template": "{{ value }}"
         }
-
+    },
 }
 
 
