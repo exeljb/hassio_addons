@@ -572,7 +572,6 @@ mappings = {
         "object_suffix": "detect_wet",
         "config": {
             "device_class": "moisture",
-            "entity_category": "diagnostic",
             "force_update": "true",
             "payload_on": "1",
             "payload_off": "0"
