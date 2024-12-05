@@ -574,7 +574,8 @@ mappings = {
             "device_class": "moisture",
             "force_update": "true",
             "payload_on": "1",
-            "payload_off": "0"
+            "payload_off": "0",
+            "expire_after": "0"
         }
     },
     "event": {
