@@ -583,7 +583,7 @@ mappings = {
         "config": {
             "device_class": "enum",
             "name": "event",
-            "options": ["Button Press", "Water Leak", "Battery Low"],
+            "options": ["Button Press", "Water Leak", "Battery Low", "Battery Report"],
             "entity_category": "diagnostic",
             "value_template": "{{ value }}"
         }
