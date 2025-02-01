@@ -85,6 +85,7 @@ mappings = {
         "object_suffix": "channel",
         "config": {
             "device_class": "enum",
+            "entity_category": "diagnostic",
             "name": "device_channel",
             "options": ["A", "B", "C"],
             "entity_category": "diagnostic",
@@ -165,6 +166,7 @@ mappings = {
         "object_suffix": "B",
         "config": {
             "device_class": "battery",
+            "entity_category": "diagnostic",
             "name": "Battery",
             "unit_of_measurement": "%",
             "value_template": "{{ float(value) * 99 + 1 | int }}"
@@ -447,6 +449,7 @@ mappings = {
         "object_suffix": "noise",
         "config": {
             "device_class": "signal_strength",
+            "entity_category": "diagnostic",
             "state_class":"measurement",
             "unit_of_measurement": "dB",
             "value_template": "{{ value|float|round(2) }}"
